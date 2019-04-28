@@ -37,7 +37,7 @@ header, main, footer {
 .sidenav li>a:hover, .sidenav li>a:active, .sidenav li>a:target, .sidenav li>a:focus {
     background-color: transparent;
     color: #646059;
-    border-bottom: 1px orange solid;
+    border-bottom: 1px #91734b solid;
 }
 
 #logo {
@@ -74,14 +74,15 @@ body::after {
 }
 
 #about {
-    width: 70%;
+    /* width: 70%; */
     font-size: 16pt;
     font-weight: 100;
     margin-bottom: 50vh;
+    line-height: 1.4em;
 }
 
 #intro {
-    width: 90%;
+    /* width: 90%; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -94,10 +95,12 @@ body::after {
     text-align: center;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.3em;
 }
 
+
 #resume {
-    width: 80%;
+    /* width: 80%; */
     margin-bottom: 50vh;
 }
 
@@ -106,30 +109,25 @@ body::after {
 }
 
 #work {
-    width: 90%;
+    width: 75%;
 }
 
-.projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-bottom: 50vh;
+.projectlinks {    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
 }
 
-.projectLink {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 250px;
-    height: 170px;
-    margin: 20px 40px 20px 0px;
-    float: left;
+.projectlinks a {
+    color: #c5b185;
+}
+
+.projectlinks a:hover {
+    color: #948464;
+    border-bottom: 1px solid #91734b;
 }
 
 .projectImage {
-    width: 100%;
+    width: 250px;
 }
 
 i.fab {
