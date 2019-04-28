@@ -34,7 +34,7 @@ header, main, footer {
     font-family: 'Open Sans', sans-serif;
 }
 
-.sidenav li>a:hover, .sidenav li>a:active, .sidenav li>a:target, .sidenav li>a:focus {
+.sidenav li>a:hover, .sidenav li>a.active {
     background-color: transparent;
     color: #646059;
     border-bottom: 1px #91734b solid;
@@ -98,7 +98,6 @@ body::after {
     line-height: 1.3em;
 }
 
-
 #resume {
     /* width: 80%; */
     margin-bottom: 50vh;
@@ -110,9 +109,10 @@ body::after {
 
 #work {
     width: 75%;
+    margin-bottom: 50vh;
 }
 
-.projectlinks {    
+.projectlinks {
     font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
 }
@@ -130,16 +130,32 @@ body::after {
     width: 250px;
 }
 
-i.fab {
+i.fab, i.far {
     font-size: 50pt;
+}
+
+#contact p {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
 }
 
 .contactlinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30vh;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-.contactlink {
-    
+.contactlinks div {
+    text-align: center;
+}
+
+.contactlinks a {
+    color: #f0ead4;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
