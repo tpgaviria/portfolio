@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 .sidenav li>a {
-    color: #bcb4a4;
+    color: #e0d8c5;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -63,8 +63,8 @@ body {
 body::after {
     content: "";
     background-image: url(../../assets/images/plant1.jpg);
-    /* background-attachment: fixed; */
-    opacity: .3;
+    opacity: .6;
+    filter: blur(3px);
     top: 0;
     left: 0;
     bottom: 0;
@@ -74,15 +74,16 @@ body::after {
 }
 
 #about {
-    /* width: 70%; */
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: 100;
     margin-bottom: 50vh;
-    line-height: 1.4em;
+    line-height: 1.6em;
+    letter-spacing: .05em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 
 #intro {
-    /* width: 90%; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -94,8 +95,8 @@ body::after {
 #avatar-col {
     text-align: center;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
     line-height: 1.3em;
+    letter-spacing: .02em;
 }
 
 #resume {
