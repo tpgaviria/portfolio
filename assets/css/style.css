@@ -137,7 +137,7 @@ h2 {
     width: 250px;
 }
 
-i.fab, i.far {
+i.fab, i.far, i.fas {
     font-size: 50pt;
 }
 
@@ -145,24 +145,26 @@ i.fab, i.far {
     
     font-family: 'Open Sans', sans-serif;
     font-size: .9em;
+    text-align: center;
 }
 
 .contactlinks {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-bottom: 30vh;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    font-size: 14pt;
 }
 
 .contactlinks div {
     text-align: center;
+    margin: 20px;
 }
 
 .contactlinks a {
     color: #f0ead4;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
+}
+
+.contactlinks a:hover {
+    color: #fffdf7;
 }
