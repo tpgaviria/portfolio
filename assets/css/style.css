@@ -73,7 +73,7 @@ body::after {
     z-index: -1;
 }
 
-#about {
+#about, #resume {
     font-size: 14pt;
     font-weight: 100;
     margin-bottom: 50vh;
@@ -81,6 +81,7 @@ body::after {
     letter-spacing: .05em;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
+    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
 }
 
 #intro {
@@ -90,6 +91,7 @@ body::after {
     justify-content: center;
     flex-direction: column;
     letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #000000, 3px 10px 5px #000000;
 }
 
 #avatar-col {
@@ -97,15 +99,19 @@ body::after {
     font-size: 12px;
     line-height: 1.3em;
     letter-spacing: .02em;
+    text-shadow: none;
 }
 
-#resume {
-    /* width: 80%; */
-    margin-bottom: 50vh;
+.skills{
+    width: 70%;
 }
 
-#resume h2 {
+
+
+h2 {
     text-align: center;
+    font-family: 'Crimson Text', serif;    
+    text-shadow: 2px 2px 0 #000000, 3px 10px 5px #000000;
 }
 
 #work {
