@@ -189,6 +189,8 @@
 
             <p>Feel free to follow me, message me, or shoot me an email!</p>
 
+
+
             <div class="contactlinks">
 
                 <div>
@@ -222,6 +224,14 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/script/app.js"></script>
+
+    <script language="JavaScript">
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email",
+            "Please enter a valid email address");
+    </script>
 
 </body>
 
