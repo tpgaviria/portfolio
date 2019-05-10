@@ -36,7 +36,7 @@ header, main, footer {
 
 .sidenav li>a:hover, .sidenav li>a.active {
     background-color: transparent;
-    color: #646059;
+    color: #a59e92;
     border-bottom: 1px #91734b solid;
 }
 
@@ -53,27 +53,22 @@ header, main, footer {
 body {
     background: black;
     color: #f0ead4;
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 100%;
     font-family: 'Crimson Text', serif;
+    background: url(../../assets/images/plant1.jpg) repeat fixed;
 }
 
-body::after {
-    content: "";
-    background-image: url(../../assets/images/plant1.jpg);
-    opacity: .6;
-    filter: blur(3px);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+
+
+
+#center {
+    background: transparent;
+    /* background: rgba(240, 240, 240, .7); */
+    width: 90%;
+    padding: 1em;
+    margin: 1em auto;
 }
 
-#about, #resume {
+#about, #resume, #work {
     font-size: 14pt;
     font-weight: 100;
     margin-bottom: 50vh;
@@ -102,22 +97,21 @@ body::after {
     text-shadow: none;
 }
 
-.skills{
+.skills {
     width: 70%;
 }
 
-
-
 h2 {
     text-align: center;
-    font-family: 'Crimson Text', serif;    
+    font-family: 'Crimson Text', serif;
     text-shadow: 2px 2px 0 #000000, 3px 10px 5px #000000;
 }
 
-#work {
+/* #work {
     width: 75%;
     margin-bottom: 50vh;
-}
+    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
+} */
 
 .projectlinks {
     font-family: 'Open Sans', sans-serif;
@@ -129,7 +123,7 @@ h2 {
 }
 
 .projectlinks a:hover {
-    color: #948464;
+    color: #ecd9a0;
     border-bottom: 1px solid #91734b;
 }
 
@@ -142,10 +136,10 @@ i.fab, i.far, i.fas {
 }
 
 #contact p {
-    
     font-family: 'Open Sans', sans-serif;
     font-size: .9em;
-    text-align: center;
+    text-align: center;    
+    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
 }
 
 .contactlinks {
@@ -154,6 +148,7 @@ i.fab, i.far, i.fas {
     margin-bottom: 30vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
+    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
 }
 
 .contactlinks div {
@@ -166,5 +161,5 @@ i.fab, i.far, i.fas {
 }
 
 .contactlinks a:hover {
-    color: #fffdf7;
+    color: #ecd9a0;
 }
