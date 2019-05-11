@@ -5,3 +5,8 @@ $(document).ready(function() {
 skrollr.init({
     forceHeight: false
 });
+
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        

@@ -12,7 +12,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
@@ -31,11 +31,62 @@
 
 <body data-0="background-position:0px 0px;" data-100000="background-position:0px -50000px;">
     <div id="skrollr-body">
+
+        <ul id="slide-out" class="sidenav sidenav-fixed hide-on-med-and-down">
+
+            <div class="row" id="logo">
+                <a href="#intro"><img src="/assets/images/skulllogo_sm.png"></a>
+            </div>
+            <div class="row">
+                <li><a href="#about">about</a></li>
+            </div>
+            <div class="row">
+                <li><a href="#resume">resume</a></li>
+            </div>
+            <div class="row">
+                <li><a href="#work">work</a></li>
+            </div>
+            <div class="row">
+                <li><a href="#contact">contact</a></li>
+            </div>
+
+        </ul>
+
+        <div class="navbar-fixed hide-on-large-only">
+            <nav>
+                <div class="nav-wrapper">
+
+
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+
+
+        <ul class="sidenav" id="mobile-demo">
+                <div class="row">
+                        <li><a href="#about">about</a></li>
+                    </div>
+                    <div class="row">
+                        <li><a href="#resume">resume</a></li>
+                    </div>
+                    <div class="row">
+                        <li><a href="#work">work</a></li>
+                    </div>
+                    <div class="row">
+                        <li><a href="#contact">contact</a></li>
+                    </div>
+        </ul>
+
         <div id="center">
 
 
 
-            <div class="container">
+
+
+
+            <!-- <div class="container">
 
                 <ul id="slide-out" class="sidenav sidenav-fixed">
 
@@ -57,7 +108,7 @@
                     </div>
 
                 </ul>
-            </div>
+            </div> -->
 
             <main>
 
@@ -74,23 +125,30 @@
                     <div class="row scrollspy" id="about">
 
                         <div class="col s12 l8">
-                            <p>Hey, I'm Tanya - a full stack developer from Atlanta. I'm high-spirited, decisive, and
+                            <p>Hey, I'm Tanya - a full stack developer from Atlanta. I'm high-spirited, decisive,
+                                and
                                 unabashedly
-                                myself. A serial hobbyist, I'm obsessed with learning and enthusiastic about trying new
+                                myself. A serial hobbyist, I'm obsessed with learning and enthusiastic about trying
+                                new
                                 things.
-                                Being someone that loves to be creative, take things apart and put them back together
+                                Being someone that loves to be creative, take things apart and put them back
+                                together
                                 just to
-                                see how they work, and reading about the newest tech and science innovations, it's like
+                                see how they work, and reading about the newest tech and science innovations, it's
+                                like
                                 programming
                                 just <i>gets</i> me, you know?
                             </p>
 
-                            <p>When I was 14, I wanted to style my Neopets guild page, which led me to the first time I
+                            <p>When I was 14, I wanted to style my Neopets guild page, which led me to the first
+                                time I
                                 ever
-                                did any kind of web design and coding, tinkering with CSS, HTML, and Photoshop to make
+                                did any kind of web design and coding, tinkering with CSS, HTML, and Photoshop to
+                                make
                                 the
                                 coolest guild that everyone would surely want to join.
-                                I've since (thankfully) expanded my knowledge in development technologies and use them
+                                I've since (thankfully) expanded my knowledge in development technologies and use
+                                them
                                 professionally.</p>
 
                         </div>
@@ -108,7 +166,8 @@
 
                         <h2>what i do</h2>
                         <p>
-                            As a full stack programmer, I work on both front-end and back-end development. My strengths
+                            As a full stack programmer, I work on both front-end and back-end development. My
+                            strengths
                             include
                             creating clean, functional, and easily navigated user interfaces and readable, easy to
                             change, back

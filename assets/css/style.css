@@ -29,7 +29,7 @@ header, main, footer {
     background-color: #080807;
 }
 
-.sidenav li>a {
+.sidenav li>a, .nav-wrapper a {
     color: #e0d8c5;
     font-family: 'Open Sans', sans-serif;
 }
@@ -38,6 +38,14 @@ header, main, footer {
     background-color: transparent;
     color: #a59e92;
     border-bottom: 1px #91734b solid;
+}
+
+.nav-wrapper {
+    background:#080807;
+}
+
+.nav-wrapper a {
+color: #e0d8c5;
 }
 
 #logo {
