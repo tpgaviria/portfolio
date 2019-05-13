@@ -42,7 +42,7 @@ header, main, footer {
 
 #small-nav { 
     transition: top 0.3s;
-    top: -100px;
+    top: -65px;
     /* display: block;
     position: fixed; */
 }
