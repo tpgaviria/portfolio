@@ -23,11 +23,11 @@ header, main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #080807;
+    height: 100vh;
+    /* padding-top: 20vh; */
 }
 
-.sidenav {
-    background-color: #080807;
-}
 
 .sidenav li>a, .nav-wrapper a {
     color: #e0d8c5;
