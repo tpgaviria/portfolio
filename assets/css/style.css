@@ -40,13 +40,27 @@ header, main, footer {
     border-bottom: 1px #91734b solid;
 }
 
-.nav-wrapper {
-    background:#080807;
+#small-nav { 
+    transition: top 0.3s;
+    top: -100px;
+    /* display: block;
+    position: fixed; */
 }
 
-.nav-wrapper a {
-color: #e0d8c5;
+
+.nav-wrapper {
+    color: #e0d8c5;
+    background:#080807;
+    font-family: 'Crimson Text', serif;
 }
+
+a.brand-logo {
+    font-family: 'Crimson Text', serif;
+    /* font-weight: 550; */
+    /* font-size: 10pt;
+    text-align: right; */
+}
+
 
 #logo {
     text-align: center;
@@ -62,7 +76,7 @@ body {
     background: black;
     color: #f0ead4;
     font-family: 'Crimson Text', serif;
-    background: url(../../assets/images/plant1.jpg) repeat fixed;
+    background: url(../../assets/images/plant2.jpg) repeat fixed;
 }
 
 
