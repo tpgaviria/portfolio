@@ -141,8 +141,9 @@ div.card-content {
 }
 
 #work div {
-    color: #080807;
+    color:#e0d8c5;
     text-shadow: none;
+    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
 }
 
 #work a {
@@ -156,7 +157,12 @@ div.card-content {
 }
 
 .card.medium {
+    border: 1px #22221d solid;
+    padding: 10px;
  height: 500px;
+ background: rgba(54, 54, 52, 0.5);
+ box-shadow: none;
+
 }
 
 .card.medium .card-image {
