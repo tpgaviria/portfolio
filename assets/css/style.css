@@ -43,8 +43,8 @@ header, main, footer {
 #small-nav { 
     transition: top 0.3s;
     top: -65px;
-    /* display: block;
-    position: fixed; */
+    display: block;
+    position: fixed;
 }
 
 
@@ -129,11 +129,43 @@ h2 {
     text-shadow: 2px 2px 0 #000000, 3px 10px 5px #000000;
 }
 
-/* #work {
-    width: 75%;
-    margin-bottom: 50vh;
-    text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
-} */
+#work p {
+    font-family: 'Open Sans', sans-serif;
+    color: #080807;
+    text-shadow: none;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-size: .9em;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+#work div {
+    color: #080807;
+    text-shadow: none;
+}
+
+#work a {
+    font-family: 'Open Sans', sans-serif;
+    color: #d6970e;
+    text-shadow: none;
+    font-weight: 400;
+    text-shadow: none;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+
+.card.medium {
+ height: 500px;
+}
+
+.card.medium .card-image {
+    max-height: 50%;
+}
+
+#work a:hover {
+color: #83672a;
+}
 
 .projectlinks {
     font-family: 'Open Sans', sans-serif;
