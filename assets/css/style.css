@@ -101,6 +101,10 @@ body {
     text-shadow: 1px 1px 0 #272727, 3px 5px 4px #000000;
 }
 
+#resume {
+    width: 70%;
+}
+
 #intro {
     height: 100vh;
     display: flex;
@@ -148,12 +152,16 @@ div.card-content {
 
 #work a {
     font-family: 'Open Sans', sans-serif;
-    color: #d6970e;
+    color: #e4cb91;
     text-shadow: none;
     font-weight: 400;
     text-shadow: none;
     letter-spacing: 0em;
     margin: 0px;
+}
+
+.card .card-action {
+    border-top: 0px;
 }
 
 .card.medium {
@@ -170,7 +178,7 @@ div.card-content {
 }
 
 #work a:hover {
-color: #83672a;
+color: #e9aa57;
 }
 
 .projectlinks {
