@@ -105,6 +105,14 @@ body {
     width: 70%;
 }
 
+#resume a {
+    color: #e4cb91;
+}
+
+#resume a:hover {
+    color: #e9aa57;
+}
+
 #intro {
     height: 100vh;
     display: flex;
