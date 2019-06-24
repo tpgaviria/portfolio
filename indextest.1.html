@@ -12,6 +12,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styletest.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+
 
     <title>Tanya Gaviria - Developer Portfolio</title>
 </head>
@@ -47,8 +50,16 @@
     <div class="container" data-spy="scroll" data-target=".navlinks">
         <div class="row justify-content-center" id="intro">
             <div class="col-sm-12 col-lg-4">
-                <h1>tanya gaviria</h1>
-                <h5>full stack web developer</h5>
+                <a href="#intro">
+                    <h1>tanya gaviria</h1>
+                </a>
+                <div id="typed"></div>
+                <div id="typed-strings">
+                    <p>nerd</p>
+                    <p>dog-lover</p>
+                    <p>fdjfadjkfnk</p>
+                    <p>full stack web developer</p>
+                </div>
             </div>
         </div>
 
@@ -58,12 +69,13 @@
                 <h2 class="section-header">about</h2>
                 <p>Hey! I'm Tanya - a full stack developer from Atlanta, GA. I'm high-spirited, insatiably curious, and
                     always good for a laugh.
-                    I love coding, my three dogs (Walter, Doug, and Tesla), and learning anything new, just for fun
+                    I love coding, my three dogs (Walter, Doug, and Tesla), and learning anything new - just for fun of
+                    it
                     (most recently wire-wrapping jewelry and basic Japanese!).
                 </p>
 
                 <p>I got my start in web development when I was 14. I was a huge fan of Neopets, a website where you
-                    could have a virtual pet, play mini games, build its skills, and earn accessories. You
+                    have a virtual pets, play mini games, build its skills, and earn accessories. You
                     could have your own 'guild' and have people join. I wanted to customize my guild page, so I taught
                     myself basic HTML, CSS, and
                     a little Photoshop to make it happen. I've since (thankfully) expanded my knowledge in development
@@ -173,65 +185,98 @@
                 <div id="work-container">
                     <div class="row">
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="https://todo-tasker.herokuapp.com/"><img src="/assets/images/todolist.png"></a>
-                            <h6>To Do List</h6>
-                            <p>Basic to do list using node, express, a custom ORM and MySQL to save tasks, and
-                                handlebars to template the front-end. Deployed on Heroku.
-                            </p>
-                            <div class="worklinkdiv"><a href="https://todo-tasker.herokuapp.com/">demo</a> - <a
-                                    href="https://github.com/tpgaviria/todo">repo</a></div>
+                            <div class="work-margin">
+                                <a href="https://todo-tasker.herokuapp.com/"><img src="/assets/images/todolist.png"></a>
+                                <h6>To Do List</h6>
+                                <p>Basic to do list using node, express, a custom ORM and MySQL to save tasks, and
+                                    handlebars to template the front-end. Deployed on Heroku.
+                                </p>
+                                <div class="worklinkdiv"><a href="https://todo-tasker.herokuapp.com/">demo</a> - <a
+                                        href="https://github.com/tpgaviria/todo">repo</a></div>
+                            </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="/assets/images/liri.gif"><img src="/assets/images/liri.gif"></a>
-                            <h6>LIRI Node App</h6>
-                            <p>SIRI clone - runs in terminal, on command line. Searches using APIS for songs on Spotify,
-                                movies with OMDB, and band concerts and tours with BandsInTown. Built exclusively in
-                                node. Demo is a GIF example of app running in Git Bash terminal.
-                            </p>
-                            <div class="worklinkdiv"><a href="/assets/images/liri.gif">demo</a> - <a
-                                    href="https://github.com/tpgaviria/liri-node">repo</a></div>
+                            <div class="work-margin">
+                                <a href="/assets/images/liri.gif"><img src="/assets/images/liri.gif"></a>
+                                <h6>LIRI Node App</h6>
+                                <p>SIRI clone - runs in terminal, on command line. Searches using APIS for songs on
+                                    Spotify,
+                                    movies with OMDB, and band concerts and tours with BandsInTown. Built exclusively in
+                                    node. Demo is a GIF example of app running in Git Bash terminal.
+                                </p>
+                                <div class="worklinkdiv"><a href="/assets/images/liri.gif">demo</a> - <a
+                                        href="https://github.com/tpgaviria/liri-node">repo</a></div>
+                            </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="https://tpgaviria.github.io/SuperSmashBabies/"><img
-                                    src="/assets/images/SuperSmashBabiesImage.png"></a>
-                            <h6>Super Smash Babies</h6>
-                            <p>RPG Style Game built using Javascript and jQuery. Player chooses their character and
-                                opponent. When "Attack" button is clicked, characters' stats are updated in real time.
-                                Game ends when player is defeated or player defeats for opponents.
-                            </p>
-                            <div class="worklinkdiv"><a href="https://tpgaviria.github.io/SuperSmashBabies/">demo</a> -
-                                <a href="https://github.com/tpgaviria/SuperSmashBabies">repo</a></div>
+                            <div class="work-margin">
+                                <a href="https://tpgaviria.github.io/SuperSmashBabies/"><img
+                                        src="/assets/images/SuperSmashBabiesImage.png"></a>
+                                <h6>Super Smash Babies</h6>
+                                <p>RPG Style Game built using Javascript and jQuery. Player chooses their character and
+                                    opponent. When "Attack" button is clicked, characters' stats are updated in real
+                                    time.
+                                    Game ends when player is defeated or player defeats for opponents.
+                                </p>
+                                <div class="worklinkdiv"><a
+                                        href="https://tpgaviria.github.io/SuperSmashBabies/">demo</a> -
+                                    <a href="https://github.com/tpgaviria/SuperSmashBabies">repo</a></div>
+                            </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="https://tpgaviria.github.io/GiphyAPI/"><img src="/assets/images/GiphyAPI.png"></a>
-                            <h6>More Than Words</h6>
-                            <p>App utilizing GIPHY's API, demonstrating use of RESTful API's and ajax functions. User
-                                can select one of the presuggested tags to search, or create their own tag by searching.
-                                Searches are saved as a button - option exists to clear searches.
-                            </p>
-                            <div class="worklinkdiv"><a href="https://tpgaviria.github.io/GiphyAPI/">demo</a> - <a
-                                    href="https://github.com/tpgaviria/GiphyAPI">repo</a></div>
+                            <div class="work-margin">
+                                <a href="https://tpgaviria.github.io/GiphyAPI/"><img
+                                        src="/assets/images/GiphyAPI.png"></a>
+                                <h6>More Than Words</h6>
+                                <p>App utilizing GIPHY's API, demonstrating use of RESTful API's and ajax functions.
+                                    User
+                                    can select one of the presuggested tags to search, or create their own tag by
+                                    searching.
+                                    Searches are saved as a button - option exists to clear searches.
+                                </p>
+                                <div class="worklinkdiv"><a href="https://tpgaviria.github.io/GiphyAPI/">demo</a> - <a
+                                        href="https://github.com/tpgaviria/GiphyAPI">repo</a></div>
+                            </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="https://tpgaviria.github.io/TriviaGame/"><img
-                                    src="/assets/images/TriviaGameImage.png"></a>
-                            <h6>World Geography Trivia</h6>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quia iste tempore
-                                repudiandae non nostrum tenetur dolorum ullam! Aspernatur, voluptatum!
-                                <div class="worklinkdiv"><a href="https://tpgaviria.github.io/TriviaGame/">demo</a> - <a
-                                        href="https://github.com/tpgaviria/TriviaGame">repo</a></div>
-                            </p>
+                            <div class="work-margin">
+                                <a href="/assets/images/customerjs.gif"><img src="/assets/images/customerjs.gif"></a>
+                                <h6>SQL Storefront</h6>
+                                <p>Node app that runs in terminal. MySQL database stores product inventory. User can
+                                    select
+                                    the product and quantity they would like to purchase. Database updates with new
+                                    inventory amounts. Demo is GIF of app running in Git Bash.
+                                </p>
+                                <div class="worklinkdiv"><a href="/assets/images/customerjs.gif">demo</a> - <a
+                                        href="https://github.com/tpgaviria/SQLStorefront">repo</a></div>
+                            </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <a href="https://tpgaviria.github.io/Word-Guess-Game/"><img
-                                    src="/assets/images/wordguess.png"></a>
-                            <h6>Guess the Composer</h6>
-                            <p>Hangman Style game built using Javascript. Composer portrait and famous musical piece is
-                                played. Blank spaces are displayed, and player types a letter. Letter shows in either
-                                the correct blank or in the incorrect guesses section.
+                            <div class="work-margin">
+                                <a href="https://tpgaviria.github.io/TriviaGame/"><img
+                                        src="/assets/images/TriviaGameImage.png"></a>
+                                <h6>World Geography Trivia</h6>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quia iste tempore
+                                    repudiandae non nostrum tenetur dolorum ullam! Aspernatur, voluptatum!
+                                    <div class="worklinkdiv"><a href="https://tpgaviria.github.io/TriviaGame/">demo</a>
+                                        - <a href="https://github.com/tpgaviria/TriviaGame">repo</a></div>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="workdiv col-sm-12 col-md-6">
+                            <div class="work-margin">
+                                <a href="https://tpgaviria.github.io/Word-Guess-Game/"><img
+                                        src="/assets/images/wordguess.png"></a>
+                                <h6>Guess the Composer</h6>
+                                <p>Hangman Style game built using Javascript. Composer portrait and famous musical piece
+                                    is
+                                    played. Blank spaces are displayed, and player types a letter. Letter shows in
+                                    either
+                                    the correct blank or in the incorrect guesses section.
+                                </p>
                                 <div class="worklinkdiv"><a href="https://tpgaviria.github.io/Word-Guess-Game/">demo</a>
                                     - <a href="https://github.com/tpgaviria/Word-Guess-Game">repo</a></div>
-                            </p>
+                            </div>
                         </div>
                     </div>
 
