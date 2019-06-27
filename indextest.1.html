@@ -12,6 +12,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styletest.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
 
@@ -21,7 +23,7 @@
 
 <body>
 
-    <nav id="topnavbar" class="nav nav-fill nav-pills sticky-top d-lg-none shadow-lg navlinks">
+    <nav id="topnavbar" class="nav nav-fill nav-pills sticky-top d-lg-none shadow-sm navlinks">
         <a class="topnavlink nav-item" href="#resume">resume</a>
         <a class="topnavlink nav-item" href="#about">about</a><img src="assets/images/skulllogo_sm2.png" id="logo-small"
             class="img-fluid">
@@ -30,7 +32,7 @@
     </nav>
 
 
-    <nav id="sidenav" class="col-lg-3 col-xl-2 d-none d-lg-block">
+    <nav id="sidenav" class="col-lg-3 col-xl-2 d-none d-lg-block shadow-lg">
         <div class="sidenav-content">
             <div id="logodiv">
                 <a href="#intro" class="logolink"><img src="assets/images/skulllogo_sm2.png"></a>
@@ -49,10 +51,9 @@
 
     <div class="container" data-spy="scroll" data-target=".navlinks">
         <div class="row justify-content-center" id="intro">
-            <div class="col-sm-12 col-lg-4">
-                <a href="#intro">
-                    <h1>tanya gaviria</h1>
-                </a>
+            <div class="col-sm-12 col-lg-4" data-aos="fade-left" data-aos-offset="0">
+
+                <h1>tanya gaviria</h1>
                 <div id="typed"></div>
                 <div id="typed-strings">
                     <p>nerd</p>
@@ -64,7 +65,7 @@
         </div>
 
 
-        <div id="about" class="row section justify-content-center">
+        <div id="about" class="row section justify-content-center" data-aos="fade-left">
             <div class="col-sm-12 col-lg-8">
                 <h2 class="section-header">about</h2>
                 <p>Hey! I'm Tanya - a full stack developer from Atlanta, GA. I'm high-spirited, insatiably curious, and
@@ -84,7 +85,7 @@
                     Development Bootcamp.</p>
             </div>
         </div>
-        <div id="resume" class="row section justify-content-center">
+        <div id="resume" class="row section justify-content-center" data-aos="fade-left">
             <div class="col-sm-12 col-lg-8">
                 <h2 class="section-header">resume</h2>
                 <p>
@@ -110,6 +111,10 @@
                     <div class="skill-div">
 
                         <p>Express</p>
+                    </div>
+                    <div class="skill-div">
+
+                        <p>MongoDB & Mongoose</p>
                     </div>
                     <div class="skill-div">
 
@@ -162,9 +167,6 @@
                         <p>AWS</p>
                     </div>
                     <div class="skill-div">
-                        <p>MongoDB</p>
-                    </div>
-                    <div class="skill-div">
                         <p>Docker</p>
                     </div>
                 </div>
@@ -173,7 +175,7 @@
             </div>
         </div>
 
-        <div id="work" class="row section justify-content-center">
+        <div id="work" class="row section justify-content-center" data-aos="fade-left">
             <div class="col-sm-12 col-lg-8">
                 <h2 class="section-header">work</h2>
                 <p>Below are a few projects I have built, along with links to deployed demos and the
@@ -186,7 +188,7 @@
                 <div id="work-container">
                     <div class="row">
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="https://todo-tasker.herokuapp.com/"><img src="/assets/images/todolist.png"></a>
                                 <h4>To Do List</h4>
                                 <p>Basic to do list using node, express, a custom ORM and MySQL to save tasks, and
@@ -197,7 +199,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="/assets/images/liri.gif"><img src="/assets/images/liri.gif"></a>
                                 <h4>LIRI Node App</h4>
                                 <p>SIRI clone - runs in terminal, on command line. Searches using APIS for songs on
@@ -210,7 +212,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="https://tpgaviria.github.io/SuperSmashBabies/"><img
                                         src="/assets/images/SuperSmashBabiesImage.png"></a>
                                 <h4>Super Smash Babies</h4>
@@ -225,7 +227,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="https://tpgaviria.github.io/GiphyAPI/"><img
                                         src="/assets/images/GiphyAPI.png"></a>
                                 <h4>More Than Words</h4>
@@ -240,7 +242,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="/assets/images/customerjs.gif"><img src="/assets/images/customerjs.gif"></a>
                                 <h4>SQL Storefront</h4>
                                 <p>Node app that runs in terminal. MySQL database stores product inventory. User can
@@ -253,7 +255,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="https://tpgaviria.github.io/TriviaGame/"><img
                                         src="/assets/images/TriviaGameImage.png"></a>
                                 <h4>World Geography Trivia</h4>
@@ -265,7 +267,7 @@
                             </div>
                         </div>
                         <div class="workdiv col-sm-12 col-md-6">
-                            <div class="work-margin">
+                            <div class="work-margin shadow">
                                 <a href="https://tpgaviria.github.io/Word-Guess-Game/"><img
                                         src="/assets/images/wordguess.png"></a>
                                 <h4>Guess the Composer</h4>
@@ -283,40 +285,43 @@
 
                 </div>
             </div>
-            <div id="contact" class="row section justify-content-center">
-                <div class="col-sm-12 col-lg-8">
-                    <h2 class="section-header">contact</h2>
+        </div>
+        <div id="contact" class="row section justify-content-center" data-aos="fade-right"
+            data-aos-anchor-placement="top-center" data-aos-delay="600">
+            <div class="col-sm-12 col-lg-8">
+                <h2 class="section-header">contact</h2>
 
-                    <p>Feel free to follow me, message me, or shoot me an email!</p>
+                <p>Feel free to follow me, message me, or send me an email.</p>
 
 
 
-                    <div class="contactlinks">
 
-                        <div>
-                            <a href="https://www.linkedin.com/in/tpgaviria/"><i class="fab fa-linkedin"></i><br>
-                                LinkedIn</a>
-                        </div>
+                <div class="contactlinks">
 
-                        <div>
-                            <a href="https://github.com/tpgaviria"><i class="fab fa-github"></i><br>
-                                Github</a>
-                        </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/tpgaviria/"><i class="fab fa-linkedin"></i><br>
+                            LinkedIn</a>
+                    </div>
 
-                        <div>
-                            <a href="assets/docs/resume.pdf"><i class="fas fa-file"></i><br>
-                                Resume</a>
-                        </div>
+                    <div>
+                        <a href="https://github.com/tpgaviria"><i class="fab fa-github"></i><br>
+                            Github</a>
+                    </div>
 
-                        <div>
-                            <a href="mailto:tpgaviria@gmail.com"><i class="fas fa-envelope"></i><br>
-                                Email</a>
-                        </div>
+                    <div>
+                        <a href="assets/docs/resume.pdf"><i class="fas fa-file"></i><br>
+                            Resume</a>
+                    </div>
+
+                    <div>
+                        <a href="mailto:tpgaviria@gmail.com"><i class="fas fa-envelope"></i><br>
+                            Email</a>
                     </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
     </div>
     </div>
 
@@ -332,6 +337,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="assets/script/apptest.js"></script>
 </body>
 
