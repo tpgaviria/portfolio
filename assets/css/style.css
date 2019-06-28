@@ -152,10 +152,12 @@ body {
 
 #resume {
     margin-bottom: 30vh;
+    text-align: justify;
 }
 
 #about {
     margin-bottom: 30vh;
+    text-align: justify;
 }
 
 #work {
