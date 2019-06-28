@@ -160,6 +160,13 @@ body {
     text-align: justify;
 }
 
+#avatar {
+    border-radius: 50%;
+    float:right;
+    shape-outside: circle();
+    margin: 2%;
+}
+
 #work {
     margin-bottom: 10vh;
 }
