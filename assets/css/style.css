@@ -184,10 +184,11 @@ body {
     margin: 2.5%;
     color: #5f5f5f;
     text-align: center;
-    font-size: 1.0em;
+    font-size: .85em;
     height: 10%;
     width: 150px;
     border: 0px solid lightgray;
+    line-height: 100%;
 }
 
 i {
