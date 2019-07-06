@@ -185,9 +185,13 @@ body {
     color: #5f5f5f;
     text-align: center;
     font-size: 1.0em;
-    height: 50px;
+    height: 10%;
     width: 150px;
     border: 0px solid lightgray;
+}
+
+i {
+    font-size: 3.5em;
 }
 
 #resume h4 {
