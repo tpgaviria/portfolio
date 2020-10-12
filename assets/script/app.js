@@ -1,7 +1,3 @@
-// $(document).ready(function(){
-//     $('body').show();
-// })
-
 var vw = $(window).width();
 console.log(vw);
 
